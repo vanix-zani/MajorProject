@@ -59,33 +59,26 @@ NEXTAUTH_URL=http://localhost:3000
 📥 Installation
 Clone the repository:
 
-bash
-Copy
-Edit
+```bash
 git clone https://github.com/vanix-zani/MajorProject.git
 cd MajorProject
 Install dependencies:
-
+```
+```
 bash
-Copy
-Edit
 npm install
 Seed the database:
-
-bash
-Copy
-Edit
+```
+```
 npm run seed
 Or visit /api/seed in your browser after running the server.
-
+```
 Start the dev server:
 
-bash
-Copy
-Edit
+```bash
 npm run dev
 Open http://localhost:3000 in your browser.
-
+```
 👥 Default Users
 
 Role	Email	Password
