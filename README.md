@@ -1,112 +1,119 @@
-# Education Management System (EMS)
+# generate_readme.py
+
+readme_content = """
+# 📚 Education Management System (EMS)
 
 A comprehensive platform for students from class 6 to 12 to access study materials, take quizzes, and track their academic progress.
 
-## Features
+## 🚀 Live Demo
 
-- **User Authentication**
-  - Student registration with name, email, password, and class (6-12)
-  - Login and logout functionality
-  - JWT for token-based authentication
-  - Password hashing with bcrypt
+> [Check out the deployed app](https://education-management-system.vercel.app)
 
-- **Dashboard**
-  - Overview of enrolled subjects
-  - Recent quiz results
-  - Performance metrics
-  - Recommended study materials
+## 🧠 Features
 
-- **Study Materials**
-  - Browse materials by subject and topic
-  - Access PDFs, notes, and video links
-  - Organized by class level
+### 🔐 User Authentication
+- Student registration with name, email, password, and class (6–12)
+- Login/logout functionality with JWT
+- Secure password hashing using `bcrypt`
 
-- **Quiz Module**
-  - Take MCQ quizzes by topic
-  - Get immediate feedback on answers
-  - View detailed results after submission
+### 📊 Dashboard
+- View enrolled subjects
+- Recent quiz results and performance metrics
+- Recommended study materials
 
-- **Performance Tracking**
-  - Visual charts showing progress over time
-  - Subject-wise performance analysis
-  - Quiz history with timestamps
+### 📚 Study Materials
+- Browse materials by subject and topic
+- PDFs, notes, and video links
+- Filtered by class level
 
-- **Admin Interface**
-  - Manage users, subjects, topics, materials, and quizzes
-  - Add, edit, and delete content
+### 📝 Quiz Module
+- Take MCQ quizzes by topic
+- Instant feedback and detailed results
 
-## Tech Stack
+### 📈 Performance Tracking
+- Visualize progress over time using charts
+- Subject-wise analytics and quiz history
 
-- **Frontend**: Next.js, React, Tailwind CSS, shadcn/ui
+### 🛠️ Admin Interface
+- Manage users, subjects, topics, materials, and quizzes
+- Add, update, and delete data
+
+## ⚙️ Tech Stack
+
+- **Frontend**: Next.js, React, Tailwind CSS, [shadcn/ui](https://ui.shadcn.com/)
 - **Backend**: Next.js API Routes
 - **Database**: MongoDB with Mongoose
-- **Authentication**: NextAuth.js with JWT
+- **Authentication**: NextAuth.js (JWT)
 - **Charts**: Recharts
 
-## Getting Started
+## 🛠️ Getting Started
 
-### Prerequisites
+### ✅ Prerequisites
 
-- Node.js 18+ and npm
-- MongoDB database
+- Node.js v18+
+- MongoDB instance or cluster
 
-### Environment Variables
+### 🧪 Environment Variables
 
-Create a `.env.local` file in the root directory with the following variables:
+Create a `.env.local` file in the root directory:
 
-\`\`\`
+```env
 MONGODB_URI=your_mongodb_connection_string
 NEXTAUTH_SECRET=your_nextauth_secret
 NEXTAUTH_URL=http://localhost:3000
-\`\`\`
+```
 
-### Installation
+# generate_readme.py
 
-1. Clone the repository:
-   \`\`\`
-   git clone https://github.com/yourusername/education-management-system.git
-   cd education-management-system
-   \`\`\`
+readme_content = """
+# 📚 Education Management System (EMS)
 
-2. Install dependencies:
-   \`\`\`
-   npm install
-   \`\`\`
+A comprehensive platform for students from class 6 to 12 to access study materials, take quizzes, and track their academic progress.
 
-3. Seed the database:
-   \`\`\`
-   npm run seed
-   \`\`\`
-   Or visit `/api/seed` in your browser after starting the development server.
+## 🚀 Live Demo
 
-4. Start the development server:
-   \`\`\`
-   npm run dev
-   \`\`\`
+> [Check out the deployed app](https://education-management-system.vercel.app)
 
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+## 🧠 Features
 
-### Default Users
+### 🔐 User Authentication
+- Student registration with name, email, password, and class (6–12)
+- Login/logout functionality with JWT
+- Secure password hashing using `bcrypt`
 
-After seeding the database, you can log in with the following credentials:
+### 📊 Dashboard
+- View enrolled subjects
+- Recent quiz results and performance metrics
+- Recommended study materials
 
-- **Admin User**:
-  - Email: admin@example.com
-  - Password: password123
+### 📚 Study Materials
+- Browse materials by subject and topic
+- PDFs, notes, and video links
+- Filtered by class level
 
-- **Student User**:
-  - Email: student@example.com
-  - Password: password123
+### 📝 Quiz Module
+- Take MCQ quizzes by topic
+- Instant feedback and detailed results
 
-## Deployment
+### 📈 Performance Tracking
+- Visualize progress over time using charts
+- Subject-wise analytics and quiz history
 
-This application can be deployed to Vercel:
+### 🛠️ Admin Interface
+- Manage users, subjects, topics, materials, and quizzes
+- Add, update, and delete data
 
-1. Push your code to a GitHub repository.
-2. Create a new project on Vercel and import your repository.
-3. Set up the environment variables in the Vercel dashboard.
-4. Deploy!
+## ⚙️ Tech Stack
 
-## License
+- **Frontend**: Next.js, React, Tailwind CSS, [shadcn/ui](https://ui.shadcn.com/)
+- **Backend**: Next.js API Routes
+- **Database**: MongoDB with Mongoose
+- **Authentication**: NextAuth.js (JWT)
+- **Charts**: Recharts
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 🛠️ Getting Started
+
+### ✅ Prerequisites
+
+- Node.js v18+
+- MongoDB instance or cluster
